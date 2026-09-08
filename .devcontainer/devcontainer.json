@@ -1,14 +1,14 @@
 {
-      "name": "Kali Linux Cloud Lab",
-        "image": "kalilinux/kali-rolling:latest",
-          "customizations": {
-              "vscode": {
-                    "extensions": [
-                            "ms-azuretools.vscode-docker"
-                                  ]
-                                      }
-                                        },
-                                          "postCreateCommand": "apt-get update && apt-get install -y kali-linux-headless"
-                                          }
+  "name": "Kali Linux Cloud Lab",
+  "image": "kalilinux/kali-rolling:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}
+
                                           
 
